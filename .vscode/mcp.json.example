@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "dictionarykit": {
+      "type": "stdio",
+      "command": "dictionarykit-mcp-server"
+    }
+  }
+}

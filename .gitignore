@@ -1,0 +1,100 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+
+# SwiftPM
+.build/
+Packages/
+.swiftpm/xcode/package.xcworkspace/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# User settings
+*.xcuserstate
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight
+*.Spotlight-V100
+
+# Trash
+.Trashes
+
+# Icon
+Icon?
+
+# Apple metadata
+.Spotlight-V100
+.fseventsd
+
+# Swift Package Manager
+.swiftpm/
+Sources/Info.plist
+
+# Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# xcworkspace
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+
+# Other
+*.moved-aside
+*.xcuserdatad
+*.swp
+*.swm
+*.swo
+*.tmp
+
+# VSCode
+.vscode/
+.history/
+.code-workspace
+.settings/
+
+# Release artifacts from Scripts/release.sh
+.release/
+
+# Committed as a template for MCP client setup (.vscode/ itself stays ignored)
+!.vscode/mcp.json.example
+
+# Stray compiler byproducts
+*.d
+*.dia
